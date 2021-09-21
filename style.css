@@ -2,7 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#clearfix {
+    position: relative;
+}
+
+#clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: red;
+}
+
+nav a {
+    display: inline;
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 #scarpa-1 {
@@ -12,6 +40,9 @@
 }
 
 #scarpa-1 h1, #scarpa-2 h1 {
+    position: absolute;
+    right: 35vh;
+    width: 800px;
     color: yellow;
     font-size: 50px;
 }
@@ -29,6 +60,9 @@
 }
 
 #scarpa-3 h1 {
+    position: absolute;
+    right: 35vh;
+    width: 800px;
     color: green;
     font-size: 50px;
 }
