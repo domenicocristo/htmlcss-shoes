@@ -15,6 +15,7 @@
     clear: both;
 }
 
+/* Bottoni */
 nav {
     float: right;
     margin-top: 20px;
@@ -34,11 +35,16 @@ nav a {
     color: black;
     text-decoration: none;
 }
+/* /Bottoni */
 
 #scarpa-1 {
     height: 100vh;
     background-color: red;
     text-align: center;
+}
+ 
+#scarpa-1 img {
+    transform: translate(10%, 10%);
 }
 
 #scarpa-1 h1, #scarpa-2 h1 {
